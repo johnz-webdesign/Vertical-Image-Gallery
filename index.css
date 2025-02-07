@@ -19,3 +19,29 @@ h1 {
     text-transform: uppercase;
     margin-bottom: 2rem;
 }
+
+.gallery {
+    max-width: 800px;
+    height: 450px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.gallery-panel {
+    flex: 1;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.gallery-panel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .gallery-panel:nth-child(2) img {
+    scale: 1.15;
+} */
