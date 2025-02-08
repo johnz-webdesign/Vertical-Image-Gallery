@@ -8,7 +8,6 @@ body {
   line-height: 1.5;
   color: #222;
   background-color: #fff;
-  border-top: 10px solid #f1d23a;
   padding: 40px 80px 0;
 }
 
@@ -38,7 +37,7 @@ h1 {
 }
 
 .gallery-panel:hover {
-  flex: 2.5;
+  flex: 3;
 }
 
 .gallery:has(.gallery-panel:hover) .gallery-panel:not(:hover) img {
